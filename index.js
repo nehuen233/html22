@@ -1,6 +1,5 @@
 function evento(e){
-    console.dir(e.target.children[0]);
-    let hijo = e.target.children;
+    let hijo = e.target.parentElement.children;
     let clase = e.target;
     clase.className = "boxActivo";
     
